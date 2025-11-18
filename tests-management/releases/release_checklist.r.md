@@ -3,48 +3,46 @@
 ## Testing checklists
 
 ### S1 Release checklist
-* [unknown] C1 Reports
+* [passed] C1 Reports – @LETI-122623
 
 
 ### S2 Automated tests checklist
-* [unknown] C2 Unit tests
+* [passed] C2 Unit tests – @LETI-122623
 
 
 ## Unit tests
 
 ### S3 Ships test case
-* [unknown] C3 BargeTest
-    tags: #unit-tests, #test-cases
+* [passed] C3 BargeTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
-* [unknown] C4 CaravelTest
-    tags: #unit-tests, #test-cases
+* [passed] C4 CaravelTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
-* [unknown] C5 CarrackTest
-    tags: #unit-tests, #test-cases
+* [passed] C5 CarrackTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
-* [unknown] C6 FrigateTest
-    tags: #unit-tests, #test-cases
+* [passed] C6 FrigateTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
-* [unknown] C7 GalleonTest
-    tags: #unit-tests, #test-cases
+* [passed] C7 GalleonTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
 
 ### S4 Utilitaries test case
-* [unknown] C8 ShipTest
-    tags: #unit-tests, #test-cases
+* [passed] C8 ShipTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
-* [unknown] C9 FleetTest
-    tags: #unit-tests, #test-cases
+* [passed] C9 FleetTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
-* [unknown] C10 PositionTest
-    tags: #unit-tests, #test-cases
+* [passed] C10 PositionTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
-* [unknown] C11 CompassTest
-    tags: #unit-tests, #test-cases
+* [passed] C11 CompassTest – @LETI-122623
+  tags: #unit-tests, #test-cases
 
 
 ### S5 Game test case
-* [unknown] C12 GameTest
-    tags: #unit-tests, #test-cases
-
-
+* [passed] C12 GameTest – @LETI-122623
+  tags: #unit-tests, #test-cases
