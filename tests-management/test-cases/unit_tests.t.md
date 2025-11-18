@@ -8,7 +8,8 @@ Tags: #unit-tests, #test-cases
 * C5 CarrackTest
 * C6 FrigateTest
 * C7 GalleonTest
+* C8 GameTest
 
 ## S4 Tasks test case
-* C8 TasksTest
+* C9 TasksTest
 
