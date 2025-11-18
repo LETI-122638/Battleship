@@ -8,7 +8,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@DisplayName("Testes para a classe Fleet")
 class FleetTest {
 
     private Fleet fleet;
