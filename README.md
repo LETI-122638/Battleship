@@ -5,10 +5,14 @@ Contributors:
 - Rafael Silva - 122638
 
 Code Smells encontrados através das funções de Teste:
-- Dead Code encontrado na classe ShipTest.java, na função getTopMostPos(), já que alteração de posição não servia para nada, já que a posição dada é sempre uma das mais acima.
-- Dead Code encontrado na classe ShipTest.java, na função getLeftMostPos(), já que alteração de posição não servia para nada, já que a posição dada é a mais à esquerda, excepto na construção dos galeões.
-- Dead Code encontrado na classe Caravel.java, pois a verificação do "bearing" já é feita na superclasse Ship.java. Assim, o código foi comentado para resolver o problema.
+- Dead Code encontrado na classe ShipTest.java, na função getTopMostPos(), já que alteração de posição não servia para nada, já que a posição dada é sempre uma das mais acima;
+- Dead Code encontrado na classe ShipTest.java, na função getLeftMostPos(), já que alteração de posição não servia para nada, já que a posição dada é a mais à esquerda, excepto na construção dos galeões;
+- Dead Code encontrado na classe Caravel.java, pois a verificação do "bearing" já é feita na superclasse Ship.java. Assim, o código foi comentado para resolver o problema;
 - Dead code encontrado na classe Galleon.java, pois a verificação do Bearing já é feita na superclasse Ship.java. Assim, o código foi comentado para resolver o problema.
+
+Conclusão depois dos testes unitários com Coverage:
+- Foi necessário alterar o construtor da classe Game, inicializando as outras duas variáveis, algo necessário para os testes correrem corretamente;
+- É impossível chegar a 100% na métrica Branch nas classes Ship e Fleet, devido à existência de assserts, algo que não dá para contrariar, logo não dá para dar um valor nulo e prosseguir com o código, piorando assim esta métrica.
 
 ## Continuous Integration
 
@@ -21,4 +25,4 @@ Os passos executados são os seguintes:
 2.  **Set up JDK 17:** O ambiente é configurado com Java Development Kit (JDK) 17.
 3.  **Build with Maven:** O projeto é compilado e empacotado usando o Maven (`mvn -B package`).
 4.  **Run tests:** Os testes unitários são executados para garantir a qualidade e o correto funcionamento do código (`mvn -B -ntp -DskipTests=false verify`).
-5.  **Update dependency graph:** O gráfico de dependências do projeto é atualizado para o Dependabot. 
+5.  **Update dependency graph:** O gráfico de dependências do projeto é atualizado para o Dependabot.
