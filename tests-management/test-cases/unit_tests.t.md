@@ -8,8 +8,13 @@ Tags: #unit-tests, #test-cases
 * C5 CarrackTest
 * C6 FrigateTest
 * C7 GalleonTest
-* C8 GameTest
 
-## S4 Tasks test case
-* C9 TasksTest
+## S4 Utilitaries test case
+* C8 ShipTest
+* C9 FleetTest
+* C10 PositionTest
+* C11 CompassTest
+
+## S5 Game test case
+* C12 GameTest
 
